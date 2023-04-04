@@ -23,6 +23,9 @@ jobs:
       with:
         dotnet-version: '5.0'
 
+    - name: setup msbuild
+      uses: warrenbuckley/Setup-MSBuild@v1
+          
     - name: Restore NuGet packages
       run: dotnet restore APEAIS-4.8.sln
 

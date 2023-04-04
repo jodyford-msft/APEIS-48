@@ -24,10 +24,10 @@ jobs:
         dotnet-version: '5.0'
 
     - name: Restore NuGet packages
-      run: dotnet restore APEIS-48.sln
+      run: dotnet restore APEAIS-4.8.sln
 
     - name: Build solution
-      run: msbuild /p:Configuration=Release APEIS-48.sln
+      run: msbuild /p:Configuration=Release APEAIS-4.8.sln
 
 
     - name: Stop IIS

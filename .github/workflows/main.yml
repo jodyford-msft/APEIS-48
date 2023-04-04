@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: apeis-dev
+    runs-on: apeis48
 
     steps:
     - uses: actions/checkout@v3

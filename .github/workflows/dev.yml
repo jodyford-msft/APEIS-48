@@ -5,18 +5,14 @@ name: .NET
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "dev" ]
   pull_request:
-    branches: [ "main" ]
-  pull_request_review: 
-    branches:
-      - main
-    types: [submitted]
+    branches: [ "dev" ]
 
 jobs:
   build:
 
-    runs-on: apeis-48
+    runs-on: apeis-48-dev
 
     steps:
     - name: Checkout code

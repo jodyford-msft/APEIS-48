@@ -38,7 +38,7 @@ jobs:
         net stop W3SVC
     - name: Copy Build Code
       run: |
-        xcopy /E /Y /I c:\Users\jodyford\actions-runner2\_work\APEIS-48\APEIS-48\* C:\inetpub\wwwroot\apeis2
+        xcopy /E /Y /I c:\Users\jodyford\actions-runner2\_work\APEIS-48\APEIS-48\* C:\inetpub\wwwroot\apeis3
      
     - name: Start IIS
       run: |

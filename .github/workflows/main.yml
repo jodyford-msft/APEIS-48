@@ -9,6 +9,8 @@ on:
   pull_request:
     branches: [ "main" ]
   pull_request_review: 
+    branches:
+      - main
     types: [submitted]
 
 jobs:

@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: apeis-48
+    runs-on: apeis-48-dev
 
     steps:
     - name: Checkout code
